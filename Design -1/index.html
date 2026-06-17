@@ -3,67 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ScaleX</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="script.js">
-    <link
-  href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
-  rel="stylesheet"
-/>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
 </head>
 <body>
     <main>
-        <section>
-            <nav>
-                <div id="header">
-                    <i class="ri-code-box-fill"></i>
-                    <h1>ScaleX</h1>
-                </div>
-                <div id="links">
-                    <a href="#">Home</a>
-                    <a href="#">About Us</a>
-                    <a href="#">Blogs</a>
-                    <a href="#">Contact Us</a>
-                </div>
-                <div id="btn">
-                    <button>Get Started</button>
-                </div>
-            </nav>
+        <nav>
+            <div id="header">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-4 6h-4v2h4v2h-4v2h4v2H9V7h6v2z"/>
+                </svg>
+                <h1>ScaleX</h1>
+            </div>
+            <div id="links">
+                <a href="#">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Blogs</a>
+                <a href="#">Contact Us</a>
+            </div>
+            <div id="btn">
+                <button>Get Started</button>
+            </div>
+        </nav>
+
+        <section id="content-area">
             <div id="hero">
                 <h1>Insights & Blogs</h1>
             </div>
+
             <div id="mid-btn">
-                <button>All</button>
+                <button class="active">All</button>
                 <button>Tech</button>
                 <button>SaaS</button>
                 <button>Marketing</button>
             </div>
-            <footer id="box-conatiner">
+
+            <div id="box-container">
                 <div class="card">
-                    <img src="https://images.unsplash.com/photo-1630369160812-26c7604cbd8c?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Tech">
+                    <div class="img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1630369160812-26c7604cbd8c?q=80&w=688&auto=format&fit=crop" alt="Tech">
+                    </div>
                     <div class="card-content">
-                        <span class="tag">Tech</span>
-                    <h3>The Ultimate Guide to SaaS Marketing</h3>
-                    <h4>May 26, 2026</h4>
+                        <span class="tag tag-tech">Tech</span>
+                        <h3>The Ultimate Guide To SaaS Marketing</h3>
+                        <span class="date">May 23, 2025</span>
                     </div>
                 </div>
+
                 <div class="card">
-                    <img src="https://images.unsplash.com/photo-1678296379342-636d55ad9546?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="SaaS">
+                    <div class="img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1678296379342-636d55ad9546?q=80&w=1332&auto=format&fit=crop" alt="SaaS">
+                    </div>
                     <div class="card-content">
-                        <span class="tag">SaaS</span>
-                    <h3>5 Key Trends In SaaS Growth for 2026</h3>
-                    <h4>May 26, 2026</h4>
+                        <span class="tag tag-saas">SaaS</span>
+                        <h3>5 Key Trends In SaaS Growth For 2025</h3>
+                        <span class="date">May 23, 2025</span>
                     </div>
                 </div>
+
                 <div class="card">
-                    <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?q=80&w=1143&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Marketing">
+                    <div class="img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?q=80&w=1143&auto=format&fit=crop" alt="Marketing">
+                    </div>
                     <div class="card-content">
-                        <span class="tag">Marketing</span>
-                    <h3>How Data-Driven Strategies Are Important</h3>
-                    <h4>May 26, 2026</h4>
+                        <span class="tag tag-marketing">Marketing</span>
+                        <h3>How Data-Driven Strategies Are Important</h3>
+                        <span class="date">May 23, 2025</span>
                     </div>
                 </div>
-            </footer>
+            </div>
         </section>
     </main>
 </body>
